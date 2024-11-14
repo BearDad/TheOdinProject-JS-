@@ -29,7 +29,6 @@ body {
   padding: 0; /* Removes default padding */
 
   padding-top: 50px;
-
 }
 
 body {
@@ -39,7 +38,6 @@ body {
   font-family: "Rubik Glitch", sans-serif;
   color: white;
 }
-
 
 img {
   display: block;
@@ -52,7 +50,6 @@ img {
   border: 5px solid transparent; /* Set border color and thickness */
   border-radius: 30px; /* Rounded corners */
 }
-
 
 #recipes {
   display: flex;
@@ -138,5 +135,4 @@ h2 {
   align-content: center;
   justify-content: left;
   flex-wrap: wrap;
-
 }
