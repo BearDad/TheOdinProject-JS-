@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Rubik Glitch";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubikglitch/v2/qkBSXv8b_srFRYQVYrDKh9ZfnyTG.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Special Elite";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/specialelite/v18/XLYgIZbkc4JPUL5CVArUVL0ntnAOSA.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html,
+body {
+  height: 100%; /* Ensures both html and body take up the full viewport height */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+
+  padding-top: 50px;
+
+}
+
+body {
+  background-color: #404e5c;
+  display: flex;
+  flex-direction: column;
+  font-family: "Rubik Glitch", sans-serif;
+  color: white;
+}
+
+
+img {
+  display: block;
+  margin: 25px auto;
+  max-width: 95%;
+  max-height: 700px;
+  height: auto;
+
+  width: auto;
+  border: 5px solid transparent; /* Set border color and thickness */
+  border-radius: 30px; /* Rounded corners */
+}
+
+
+#recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+@media (min-width: 800px) {
+  #recipes {
+    gap: 10px; /* Sets a maximum gap */
+  }
+}
+
+.recipes button {
+  font-family: "Special Elite", sans-serif;
+  justify-content: center;
+
+  color: black;
+  background-color: #7ca29c;
+  text-align: center;
+  font-size: 24px;
+
+  width: auto;
+  border: 5px solid transparent;
+  padding: 12px;
+  border-radius: 20px;
+  margin: 0px auto;
+  cursor: pointer;
+  flex: 1 1 0;
+  transform: scale(auto);
+
+  transition:
+    background-color 0.3s ease-out,
+    border-color 1s ease-out,
+    transform 0.3s ease; /* Smooth transition for background, border, and scaling */
+}
+
+.recipes button:hover {
+  background-color: #98b6b1; /* Darker shade on hover */
+  transform: scale(1.1);
+  border-color: #445f5b;
+}
+
+#header {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  background-color: #4f6272;
+  padding: 10px 0;
+  z-index: 10;
+}
+#header h1 {
+  margin: 0;
+  font-size: clamp(32px, 4vw, 128px);
+  text-align: center;
+  color: white;
+}
+.paragraph {
+  font-family: "Special Elite", sans-serif;
+  text-align: center;
+  font-size: clamp(12px, 3vw, 64px);
+}
+#description {
+  margin: 0 auto;
+  padding: 25px;
+  align-content: center;
+  flex-wrap: wrap;
+}
+h2 {
+  font-size: clamp(32px, 4vw, 128px);
+  text-align: center;
+}
+.list {
+  display: flex;
+  font-family: "Special Elite", sans-serif;
+  font-size: clamp(12px, 3vw, 64px);
+  text-align: justify;
+  padding: 25px;
+  align-content: center;
+  justify-content: left;
+  flex-wrap: wrap;
+
+}
