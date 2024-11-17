@@ -2,3 +2,6 @@
 	path = landing-page-odin
 	url = git@github.com:BearDad/landing-page-odin.git
 
+[submodule "odin-recipes"]
+	path = odin-recipes
+	url = git@github.com:BearDad/odin-recipes.git
