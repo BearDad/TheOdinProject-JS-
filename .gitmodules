@@ -8,3 +8,6 @@
 [submodule "javascript-exercises"]
 	path = javascript-exercises
 	url = git@github.com:BearDad/javascript-exercises.git
+[submodule "rock-paper-scissors"]
+	path = rock-paper-scissors
+	url = git@github.com:BearDad/rock-paper-scissors.git
